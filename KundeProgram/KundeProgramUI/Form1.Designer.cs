@@ -33,6 +33,8 @@ partial class Form1
         btn_OpenCustomerRegistration = new Button();
         btn_DeleteCustomer = new Button();
         btn_UpdateCustomer = new Button();
+        numericUpDown1 = new NumericUpDown();
+        ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
         SuspendLayout();
         // 
         // lb_customers
@@ -74,17 +76,26 @@ partial class Form1
         btn_UpdateCustomer.UseVisualStyleBackColor = true;
         btn_UpdateCustomer.Click += btn_UpdateCustomer_Click;
         // 
+        // numericUpDown1
+        // 
+        numericUpDown1.Location = new Point(518, 419);
+        numericUpDown1.Name = "numericUpDown1";
+        numericUpDown1.Size = new Size(231, 31);
+        numericUpDown1.TabIndex = 5;
+        // 
         // Form1
         // 
         AutoScaleDimensions = new SizeF(10F, 25F);
         AutoScaleMode = AutoScaleMode.Font;
         ClientSize = new Size(765, 456);
+        Controls.Add(numericUpDown1);
         Controls.Add(btn_UpdateCustomer);
         Controls.Add(btn_DeleteCustomer);
         Controls.Add(btn_OpenCustomerRegistration);
         Controls.Add(lb_customers);
         Name = "Form1";
         Text = "Form1";
+        ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
         ResumeLayout(false);
     }
 
@@ -93,4 +104,5 @@ partial class Form1
     private Button btn_OpenCustomerRegistration;
     private Button btn_DeleteCustomer;
     private Button btn_UpdateCustomer;
+    private NumericUpDown numericUpDown1;
 }

@@ -57,7 +57,7 @@ public partial class Form1 : Form
             updateCustomerForm.ShowDialog();
             updateCustomerForm.CustomerUpdated -= UpdateCustomerForm_CustomerUpdated;
         }
-        
+
     }
 
     private void UpdateCustomerForm_CustomerUpdated(object? sender, ICustomer e)
