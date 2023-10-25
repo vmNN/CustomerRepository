@@ -1,0 +1,16 @@
+KundeProgram/.idea/
+KundeProgram/.vs/
+KundeProgram/Abstractions/bin/Debug/net7.0/Abstractions.deps.json
+KundeProgram/Abstractions/obj/Abstractions.csproj.nuget.dgspec.json
+KundeProgram/KundeProgramUI/obj/KundeProgramUI.csproj.nuget.g.targets
+KundeProgram/KundeProgramUI/obj/KundeProgramUI.csproj.nuget.dgspec.json
+KundeProgram/KundeProgramUI/obj/project.assets.json
+KundeProgram/KundeProgramUI/obj/rider.project.restore.info
+KundeProgram/KundeProgramUI/obj/Debug/net7.0-windows/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+KundeProgram/Repository/obj/
+KundeProgram/Service/obj/
+KundeProgram/Abstractions/obj/
+KundeProgram/KundeProgramUI/bin/
+KundeProgram/Repository/bin/
+KundeProgram/Unit Test/bin/
+KundeProgram/Unit Test/obj/
